@@ -9,6 +9,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Wix Madefor Display", system-ui;
+  background-color: var( --white);
 }
 
 *,
@@ -22,9 +23,9 @@
 a,
 a:link,
 a:visited {
-  /* color: inherit; */
+  color: inherit;
   text-decoration: none;
-  /* display: inline-block; */
+  display: inline-block;
 }
 
 a:hover {
@@ -130,20 +131,12 @@ legend {
 
 
 :root {
-  --white: rgb(255, 255, 255);
-  --black: rgb(24, 24, 24);
-  --black-gray: rgb(47, 47, 47);
-  --med-gray: rgb(163, 163, 163);
-  --light-gray: rgb(209, 209, 209);
-  --last-gray: rgb(116, 116, 116);
-  --dark-med-gray: rgb(93, 93, 93);
-  --dark-gray-alt: rgb(70, 70, 70);
-  --prim: rgb(241, 245, 248);
-  --light-blue: rgb(235, 243, 255);
-  --btn-blue: rgb(153, 194, 255);
-  --blue: rgb(0, 102, 255);
+  --white: #ffffff;
+  --black:  #000000;
   --red: rgb(255, 0, 0);
-  --light-red: rgb(238, 129, 129);
+  --grey:  #F9F7F2;
+  --orange:   #FC4F1E;
+  --grey-black:    #212121;
 }
 
 ::-webkit-scrollbar {

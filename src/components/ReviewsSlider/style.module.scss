@@ -1,0 +1,28 @@
+.reviews {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 100vh;
+    position: relative;
+
+    &__title {
+        color: var(--black);
+        font-weight: bold;
+        font-size: 33px;
+        line-height: 35px;
+        letter-spacing: 3px;
+        padding: 40px 0 0 0;
+    }
+
+    &__slider {
+        margin-top: 175px;
+        height: auto;
+    }
+
+    &__button {
+        width: 120px;
+        position: absolute;
+        bottom: 186px;
+        z-index: 50;
+    }
+}

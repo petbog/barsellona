@@ -1,0 +1,150 @@
+.slider {
+    background-color: var(--grey);
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+
+    &__user {
+        background-color: var(--grey);
+        display: flex;
+        align-items: center;
+        color: var(--black);
+        font-size: 17px;
+        line-height: 17px;
+        background-color: var(--grey);
+        margin-bottom: 20px;
+
+        &-avatar {
+            background-color: var(--grey);
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+
+        }
+
+        &-name {
+            margin: 0 0 0 11px;
+            background-color: var(--grey);
+        }
+
+        &-lastname {
+            margin: 0 0 0 7px;
+            background-color: var(--grey);
+
+        }
+    }
+
+    &__info {
+        background-color: var(--grey);
+
+        &-box {
+            background-color: var(--grey);
+            display: flex;
+            align-items: center;
+            background-color: var(--grey);
+        }
+
+        &-sity {
+            background-color: var(--grey);
+            color: var(--orange);
+            font-size: 13px;
+            line-height: 17px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+
+            &-subtext {
+                background-color: var(--grey);
+                margin: 0 0 0 7px;
+                color: var(--grey-black);
+            }
+        }
+    }
+
+    &__text {
+        margin-top: 20px;
+        background-color: var(--grey);
+        color: var(--black);
+        font-size: 15px;
+        line-height: 25px;
+        width: 240px;
+        overflow-wrap: break-word;
+        white-space: normal;
+        word-wrap: break-word;
+    }
+
+    &__img {
+        margin: 20px 0 0 14px;
+        background-color: var(--grey);
+    }
+
+    &__data {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--grey);
+
+
+        &-date {
+            background-color: var(--grey);
+            color: var(--grey-black);
+            font-size: 13px;
+            line-height: 17px;
+            letter-spacing: 0.5px;
+            margin-top: 20px;
+        }
+
+        &-comment {
+            background-color: var(--grey);
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            color: var(--grey-black);
+            font-size: 13px;
+            line-height: 17px;
+            letter-spacing: 0.5px;
+        }
+
+        &-like {
+            background-color: var(--grey);
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            color: var(--grey-black);
+            font-size: 13px;
+            line-height: 17px;
+            letter-spacing: 0.5px;
+
+            &-img {
+                margin-right: 5px;
+                width: 14px;
+                height: 16px;
+            }
+        }
+    }
+
+    &__img {
+        width: 30px;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        margin: 45px 0 35px 0;
+        position: relative;
+
+        &-item {
+            margin-right: 5px;
+        }
+
+        &-more {
+            position: absolute;
+            right: -178px;
+            top: 9px;
+            background: transparent;
+            color: var(--white);
+            font-size: 30px;
+            font-weight: 600;
+        }
+    }
+}
+

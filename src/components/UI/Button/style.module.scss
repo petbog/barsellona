@@ -1,0 +1,19 @@
+.Button {
+  height: 51px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-item {
+    font-size: 15px;
+    line-height: 17px;
+    color: var(--black);
+    letter-spacing: 1px;
+    font-weight: 500;
+    width: 114px;
+    height: 51px;
+    padding: 5px 6px;
+    border: 2px solid red;
+  }
+}
