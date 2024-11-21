@@ -3,7 +3,7 @@ import { immer } from "zustand/middleware/immer";
 import { devtools } from "zustand/middleware";
 import { create } from "zustand";
 
-interface messagesType {
+export interface messagesType {
   messages: string;
   role: string;
   name: string;
@@ -51,7 +51,7 @@ export const useMessagesStore = () => {
   } = MessagesStore();
 
   const getAllMessagesSelector = () => {
-    return MessagesStoreState.messages.reverse();
+    return [...MessagesStoreState.messages].reverse(); 
   };
 
   return {
